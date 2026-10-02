@@ -1,64 +1,86 @@
---- 
+---
 Title: Organisational policies and strategies
 linkTitle: Organisational policies and strategies
 type: docs
 weight: 40
-description: 
+description:
 ---
-      
-ASD’s [*Information Security Manual*](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism) (ISM) requires organisations to develop and maintain a range of organisational policies or strategies. ASD’s *Blueprint for Secure Cloud* (the Blueprint) does not provide guidance or templates for these important artefacts. The Blueprint does provide the following checklist that organisations can refer to when reviewing, developing and updating their documentation associated with a system or systems built using the Blueprint.
 
-#### Cyber Security Strategy  
-A Cyber Security Strategy is a requirement of ISM control ISM-0039.
+ASD’s [_Information security Manual_](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism) (ISM) requires organisations to develop and maintain a range of organisational policies or strategies. ASD’s _Blueprint for Secure Cloud_ (the Blueprint) does not provide guidance or templates for these important artefacts. The Blueprint does provide the following checklist that organisations can refer to when reviewing, developing and updating their documentation associated with a system or systems built using the Blueprint.
 
-#### Cyber Security Incident Management Policy
-A Cyber Security Incident Management Policy is a requirement of ISM control ISM-0576. 
- 
+#### Artificial intelligence usage policy
+
+A general-purpose artificial intelligence usage policy is a requirement of ISM control ISM-2074.
+
+#### Cyber security strategy
+
+A cyber security strategy is a requirement of ISM control ISM-0039.
+
+#### Cyber security incident management policy
+
+A cyber security incident management policy is a requirement of ISM control ISM-0576.
+
 ISM control ISM-1784 is also relevant to this policy and states the following requirements:
-* an associated Cyber Security Incident Response Plan is also developed
-* the Cyber Security Incident Management Policy and Cyber Security Incident Response Plan are to be exercised annually by the organisation.
 
-#### Digital Preservation Policy  
-A Digital Preservation Policy is a requirement of ISM control ISM-1510.
+- an associated cyber security incident Response Plan is also developed
+- the cyber security incident management policy and cyber security incident Response Plan are to be exercised annually by the organisation.
 
-#### Email Usage Policy  
-A Email Usage Policy is a requirement of ISM control ISM-0264.
+#### Digital preservation policy
 
-#### Event Logging Policy 
-A Event Logging Policy is a requirement of ISM control ISM-0580.
+A digital preservation policy is a requirement of ISM control ISM-1510.
 
-#### Fax Machine and MFD Usage Policy  
-A Fax Machine and MFD Usage Policy is a requirement of ISM control ISM-0588.
+#### Email usage policy
 
-#### ICT Equipment Management Policy 
-A ICT Equipment Management Policy is a requirement of ISM control ISM-1551.
+A email usage policy is a requirement of ISM control ISM-0264.
 
-#### Media Management Policy 
-A Media Management Policy is a requirement of ISM control ISM-1549.
+#### Event logging policy
 
-#### Mobile Device Management Policy
-A Mobile Device Management Policy is a requirement of ISM control ISM-1533.
+A event logging policy is a requirement of ISM control ISM-0580.
 
-#### Mobile Device Usage Policy
-A Mobile Device Usage Policy is a requirement of ISM control ISM-1082.
+#### MFD usage policy
 
-#### Removable Media Usage Policy
-A Removable Media Usage Policy is a requirement of ISM control ISM-1359.
+An MFD usage policy is a requirement of ISM control ISM-0588.
+
+#### ICT equipment management policy
+
+A ICT equipment management policy is a requirement of ISM control ISM-1551.
+
+#### Media management policy
+
+A media management policy is a requirement of ISM control ISM-1549.
+
+#### Mobile device management policy
+
+A mobile device management policy is a requirement of ISM control ISM-1533.
+
+#### Mobile device usage policy
+
+A mobile device usage policy is a requirement of ISM control ISM-1082.
+
+#### Removable media usage policy
+
+A removable media usage policy is a requirement of ISM control ISM-1359.
 
 ISM control ISM-1713 is also relevant to this policy and states the following requirements:
-* An associated Removal Media Register is also developed, implemented, maintained and verified on a regular basis.
 
-#### Supplier Relationship Management Policy
-A Supplier Relationship Management Policy is a requirement of ISM control ISM-1785.
+- An associated removal media register is also developed, implemented, maintained and verified on a regular basis.
 
-#### System Usage Policy 
-A System Usage Policy is a requirement of ISM control ISM-1864.
+#### Supplier relationship management policy
 
-#### Telephone System Usage Policy  
-A Telephone System Usage Policy is a requirement of ISM control ISM-1078.
+A supplier relationship management policy is a requirement of ISM control ISM-1785.
 
-#### Vulnerability Disclosure Policy 
-A Vulnerability Disclosure Policy is a requirement of ISM control ISM-1755.
+#### System usage policy
 
-#### Web Usage Policy
-A Web Usage Policy is a requirement of ISM control ISM-0258.
+A system usage policy is a requirement of ISM control ISM-1864.
+
+#### Telephone system usage policy
+
+A telephone system usage policy is a requirement of ISM control ISM-1078.
+
+#### Vulnerability disclosure policy
+
+A vulnerability disclosure policy is a requirement of ISM control ISM-1755.
+
+#### Web usage policy
+
+A web usage policy is a requirement of ISM control ISM-0258.

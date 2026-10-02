@@ -9,25 +9,25 @@ Microsoft Planner is a task planning and assignment tool which can integrate wit
 {{% alert title="Design decisions" color="warning" %}}
 
 | Decision point                    | Design decision | Justification                                                            |
-|-----------------------------------|-----------------|--------------------------------------------------------------------------|
+| --------------------------------- | --------------- | ------------------------------------------------------------------------ |
 | Publishing through iCalendar feed | Disabled        | To prevent users from sharing sensitive information via iCalendar feeds. |
 
 {{% /alert %}}
 
 ### Related information
 
-#### Security & Governance
+#### Security and governance
 
-* None identified
+- None identified
 
 #### Design
 
-* None identified
+- [Microsoft 365 Organisation Residency](/design/shared-services/microsoft-365/residency)
 
 #### Configuration
 
-* [Services]({{<ref "configuration/microsoft-365/settings/services">}})
+- [Services](/configuration/microsoft-365/settings/services)
 
 #### References
 
-* None identified
+- None identified

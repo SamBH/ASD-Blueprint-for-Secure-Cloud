@@ -8,11 +8,11 @@ Intune provides ability to configure iOS configuration settings for securing, co
 
 MDM provides the capability to configure iOS devices. These devices must be configured to meet ASD's iOS Secure Hardening guide to ensure the device can access and store the organisations data. These configurations can be categories as:
 
-* **Security** – Ensure device has up to date and secure authentication policies and encryption devices that meets ASD's Secure iOS guide. 
-* **Branding** – The organisations branding for lock screen, wallpapers, and reporting if the device is lost can be configured.
-* **Device features** – Configures device features, for example, AirDrop and Bluetooth pairing, within iOS devices.
+- **Security** – Ensure device has up to date and secure authentication policies and encryption devices that meets ASD's Secure iOS guide.
+- **Branding** – The organisations branding for lock screen, wallpapers, and reporting if the device is lost can be configured.
+- **Device features** – Configures device features, for example, AirDrop and Bluetooth pairing, within iOS devices.
 
-Using Intune together with Apple Business Manager provides the ability to restrict applications deployed to iOS devices. They improve the user experience during the onboarding process and remove the requirement for an Apple ID and the public Apple App Store. When restricting application deployments, the App Store is blocked and all application management is completed through the Intune Company Portal. All applications must be licenced within Apple Business Manager and use device based licensing. 
+Using Intune together with Apple Business Manager provides the ability to restrict applications deployed to iOS devices. They improve the user experience during the onboarding process and remove the requirement for an Apple ID and the public Apple App Store. When restricting application deployments, the App Store is blocked and all application management is completed through the Intune Company Portal. All applications must be licenced within Apple Business Manager and use device based licensing.
 
 {{% alert title="Design decisions" color="warning" %}}
 
@@ -28,7 +28,7 @@ Using Intune together with Apple Business Manager provides the ability to restri
 | Device passcode                                               | Device passcode of 15 characters or above. Alphanumeric in nature and must contain a minimum of 1 special character.                                       | iOS devices, by default, is encrypted once a passcode is provided to the device. Configured in line with ISM requirements on password length.                                                                                           |
 | Biometrics                                                    | Disable                                                                                                                                                    | This is in line with ASD's iOS Secure Configuration Hardening guide for PROTECTED devices.                                                                                                                                              |
 | Mobile Device Management                                      | Enable                                                                                                                                                     | Mobile Device Management provides the organisation better auditing tools on the device. In line with ASD's iOS Secure Configuration Hardening guide for PROTECTED devices.                                                              |
-| Maximum Auto-Lock                                             | 2 minutes                                                                                                                                                  | Auto Lock will lock a device if it is inactive for specified time.                                                                                                                                                                      |
+| Maximum Auto-Lock                                             | 1 minute                                                                                                                                                   | Auto Lock will lock a device if it is inactive for specified time.                                                                                                                                                                      |
 | Virtual Private Network (VPN)                                 | Configured                                                                                                                                                 | Per-app VPN will be set up to secure communication between the device and the organisations data. This is in line with ASD's iOS Secure Configuration Hardening guide.                                                                  |
 | **Branding**                                                  |                                                                                                                                                            |                                                                                                                                                                                                                                         |
 | Lock Screen and background branding                           | Configured                                                                                                                                                 | Organisation branding will be applied to endpoints. It is recommended that organisations include the contact information of the relevant IT Support in the event that a device is lost.                                                 |
@@ -39,27 +39,27 @@ Using Intune together with Apple Business Manager provides the ability to restri
 | Allow documents from managed sources in unmanaged destination | Disable                                                                                                                                                    | The organisations data cannot be moved between managed and unmanaged application destination. This is to prevent PROTECTED from being transferred to an unmanaged application or location.                                              |
 | Treat AirDrop as unmanaged destination                        | Enable                                                                                                                                                     | AirDrop provides the ability to wirelessly transfer documents between Apple devices. Setting AirDrop as an unmanaged destination prevents users from accidentally transferring organisation data to unsecure applications or locations. |
 | Restricted Application List                                   | Configured                                                                                                                                                 | Unapproved application installs will be alerted upon. App Store is also disabled as applications will be delivered through the VPP.                                                                                                     |
+| Always-on VPN                                                 | Use Intune iOS/iPadOS VPN configuration policy to configure an always-on VPN.                                                                              | Secures connections from mobile devices and aligns with ASD's ISM.                                                                                                                                                                      |
 
 {{% /alert %}}
 
 ### Related information
 
-#### Security & Governance
+#### Security and governance
 
-* [Enterprise Mobility]({{<ref "security-and-governance/system-security-plan/enterprise-mobility.md">}})
-* [Authentication Hardening]({{<ref "system-hardening-authentication">}})
-  
+- [Enterprise mobility](/security-and-governance/system-security-plan/enterprise-mobility)
+- [Authentication hardening](/security-and-governance/system-security-plan/system-hardening-authentication)
 
 #### Design
 
-* [Entra ID Protection]({{<ref "design/platform/identity/protection.md">}})
-* [Endpoint management]({{<ref "design/platform/client">}})
+- [Entra ID Protection](/design/platform/identity/protection)
+- [Endpoint management](/design/platform/client)
 
 #### Configuration
 
-* [iOS and iPadOS]({{<ref "configuration/intune/apps/by-platform/ios-ipados.md">}})
-* [ASD iOS Hardening]({{<ref "configuration/intune/devices/apple-updates/asd-ios-hardening.md">}})
+- [iOS and iPadOS](/configuration/intune/apps/by-platform/ios-ipados)
+- [ASD iOS hardening](/configuration/intune/devices/apple-updates/asd-ios-hardening)
 
 #### References
 
-* None identified
+- None identified
